@@ -2,7 +2,7 @@
 
 A full-featured, responsive, dynamic E-Commerce web application built with a modern **Glassmorphism UI**, custom **Dark/Light Theme system**, **LocalStorage State Management**, **Dynamic Product Details Routing**, and **SEO & Performance Optimizations**.
 
-Designed & Developed with ❤️ by **Maiada Muhammed**.
+Designed & Developed by **Maiada Muhammed**.
 
 ---
 
@@ -81,8 +81,8 @@ E-COMMERCE PROJECT/
 
 **Maiada Muhammed**  
 Front-End Web Developer  
-- Portfolio: [Your Portfolio Link]  
-- LinkedIn: [Your LinkedIn Profile]  
+- Portfolio:  
+- LinkedIn:   
 
 ---
 &copy; 2026 M&M Shopping. All rights reserved.
