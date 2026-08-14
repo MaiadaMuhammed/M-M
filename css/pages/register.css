@@ -1,0 +1,147 @@
+header.flex {
+    justify-content: space-between;
+    padding-inline: 4%;
+    padding-top: 1.2em;
+    border: 1px solid rgba(65, 9, 9, 0.432);
+    background-color: rgba(65, 9, 9, 0.432);
+  height: 8dvh;
+    /* display: flex; */
+  
+    /* ===============
+  right section {buttons}
+  ==================*/
+  
+  & .cart {
+    font-size: 1rem;
+    padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+    color: white;
+    border-radius: 45px;
+    background-color: #ffffff3a;
+    color:rgba(65, 9, 9, 0.808);
+  }
+    & .sign-up,
+    .register {
+      margin-inline: 1rem;
+      color:rgba(65, 9, 9, 0.808);
+      padding: 0.44rem 1rem;
+      border-radius: 45px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    & .sign-up:hover,
+    .register:hover,
+    .cart:hover {
+      padding: 0.5rem 1.1rem 0.5rem 0.7rem;
+      color:rgba(255, 233, 192, 0.774);
+      border: 1px solid rgba(255, 233, 192, 0.774);
+    }
+    & .a,
+    .links {
+      display: inline-block;
+      transition: 0.2s;
+      all: unset;
+      color: white;
+    }
+    & button.sn:hover{
+      color:rgba(255, 233, 192, 0.774);
+      scale: 0.95;
+    }
+    & .links:active,
+    a:active {
+      scale: 0.9;
+    }
+    & .links:hover,
+    .a:hover {
+      cursor: pointer;
+    }
+  
+    & .links a {
+      text-decoration: none;
+      position: relative;
+    }
+    & .logo,
+    .links a {
+      font-weight: bold;
+      font-size: 25px;
+  
+    }
+    & .logo .lo{
+      color:rgba(65, 9, 9, 0.808);
+      text-decoration: none;
+      margin-left: -32px;
+      display: flex;
+      margin-block: 20px;
+    }
+    & div.logo span{
+      color:rgba(65, 9, 9, 0.808);
+      text-decoration: none;
+      margin-left: 3px;
+    }
+  
+   & div.logo span:hover , .logo:hover{
+    color:rgba(255, 233, 192, 0.774);
+    scale: 0.95;
+  }
+   & div.logo p{
+    margin-top: 2px;
+    margin-right: 2px;
+    letter-spacing: 4px;
+   }
+    & .logo:hover{
+      color:rgba(255, 233, 192, 0.774);
+      scale: 0.95;
+    }
+    & .product-number {
+      /* position: relative; */
+      font-size: 1rem;
+      background-color: rgb(51, 7, 7);
+      padding-block: 5px;
+      padding-inline: 6px;
+  
+      color:rgba(255, 233, 192, 0.774);
+      line-height: 20px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 50%;
+    }
+    & .fa-bag-shopping {
+      font-size: 2rem;
+    }
+  
+    /* ===============
+  left section {logo}
+  ==================*/
+  
+   header.flex .material-symbols-outlined {
+     'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24,
+  }
+   .material-symbols-outlined:hover{
+  color:rgba(255, 233, 192, 0.774);
+  }
+  }
+
+
+
+
+  
+
+footer{
+    text-align: center;
+    background-color: rgb(9, 9, 65);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-block: 1rem;
+    font-size: 1rem ;
+    color: white;
+    text-transform: capitalize;
+
+
+    & span{
+        color: rgb(202, 125, 30);
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,58 @@
+header.flex {
+    background-color: rgb(9, 9, 65);
+    color: white;
+    display: flex;
+    padding-block: 1rem;
+  
+    & .logo:hover {
+      scale: 0.95;
+    }
+    & .logo {
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: white;
+    }
+    & .sign-up:hover,
+    .register:hover,
+    .cart:hover {
+      padding: 0.5rem 1.1rem 0.5rem 0.7rem;
+      color: rgb(202, 125, 30);
+      border: 1px solid rgb(255, 255, 255);
+    }
+  
+    & .cart {
+      position: relative;
+      font-size: 1rem;
+      padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+      color: white;
+      border-radius: 45px;
+      background-color: #ffffff3a;
+      color: rgb(202, 125, 30);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  footer{
+    text-align: center;
+    background-color: rgb(9, 9, 65);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-block: 1rem;
+    font-size: 1rem ;
+    color: white;
+    text-transform: capitalize;
+
+
+    & span{
+        color: rgb(202, 125, 30);
+        text-transform: capitalize;
+    }
+}

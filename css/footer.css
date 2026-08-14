@@ -1,0 +1,19 @@
+footer {
+    /* text-align: center; */
+    background-color: rgba(65, 9, 9, 0.651);
+    margin-block: 1rem;
+    letter-spacing: 2px;
+    padding: 1px;
+    font-size: 1rem;
+    display: flex;
+  justify-content: center;
+    color: rgba(255, 233, 192, 0.699);
+    text-transform: capitalize;
+    
+    & span {
+      color: rgb(255, 233, 192);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      /* display: flex; */
+    }
+  }
