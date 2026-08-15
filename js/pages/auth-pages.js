@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           setTimeout(() => {
             const isSubfolder = window.location.pathname.includes('/web pages/');
-            window.location.href = isSubfolder ? '../home.html' : './home.html';
+            window.location.href = isSubfolder ? '../index.html' : './index.html';
           }, 600);
         }
       } catch (err) {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           setTimeout(() => {
             const isSubfolder = window.location.pathname.includes('/web pages/');
-            window.location.href = isSubfolder ? '../home.html' : './home.html';
+            window.location.href = isSubfolder ? '../index.html' : './index.html';
           }, 600);
         }
       } catch (err) {
