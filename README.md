@@ -47,7 +47,7 @@ Designed & Developed with ❤️ by **Maiada Muhammed**.
 
 ```text
 E-COMMERCE PROJECT/
-├── home.html                   # Homepage with Hero Slider & Featured Products
+├── inedx.html                   # Homepage with Hero Slider & Featured Products
 ├── web pages/
 │   ├── product.html            # Full Product Catalog with Search & Filtering
 │   ├── product-details.html    # Dynamic Product Detail Page
@@ -81,8 +81,7 @@ E-COMMERCE PROJECT/
 
 **Maiada Muhammed**  
 Front-End Web Developer  
-- Portfolio: [Your Portfolio Link]  
-- LinkedIn: [Your LinkedIn Profile]  
+- LinkedIn: https://www.linkedin.com/in/maiadafsd/ 
 
 ---
 &copy; 2026 M&M Shopping. All rights reserved.
