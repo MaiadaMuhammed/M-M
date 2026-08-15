@@ -73,7 +73,7 @@ E-COMMERCE PROJECT/
    ```bash
    git clone https://github.com/your-username/mm-shopping-ecommerce.git
    ```
-2. Open `home.html` in any web browser or launch with Live Server.
+2. Open `index.html` in any web browser or launch with Live Server.
 
 ---
 
